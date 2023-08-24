@@ -1,0 +1,15 @@
+Criar bucket:
+awslocal s3api create-bucket --bucket bucket-teste-ale1234 --region us-east-1
+
+Listar buckets:
+awslocal s3api list-buckets --endpoint-url=http://localhost:4566
+
+Listar o conteúdo do Bucket:
+awslocal s3api list-objects --endpoint-url=http://localhost:4566 --bucket bucket-teste-ale1234
+
+Updload de arquivo no bucket:
+awslocal s3api put-object --bucket bucket-teste-ale1234 --key teste.csv --body C:\teste.csv
+
+Abrir o arquivo dentro do Bucket:
+ir no nabegador e digitar o endereço
+http://localhost:4566/bucket-teste-ale1234/test123.txt
