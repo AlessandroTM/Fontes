@@ -1,0 +1,2 @@
+https://reshefsharvit.medium.com/go-faster-with-golang-and-localstack-ace2138dc0e7
+https://github.com/subzero112233/golang-localstack
